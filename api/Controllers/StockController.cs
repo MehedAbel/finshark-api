@@ -15,8 +15,8 @@ using api.Helpers;
 
 namespace api.Controllers
 {
-    [Route("api/stock")]
     [ApiController]
+    [Route("api/stock")]
     public class StockController : Controller
     {
         private readonly IStockRepository _stockRepo;
